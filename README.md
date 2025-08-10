@@ -46,7 +46,10 @@ PALAS_EOLICAS_ML/
     └───procesar_img_noetiqueta.py # Script separa img sin etiqueta
     
   ```
-Lo anterior sirve para clasificar y separar las imagenes que estan con etiqueta del data set original que corresponden a 263 imágenes. Las otras 1039 imágenes corresponden a imágenes que no presentan etiquetas, este gurpo del set se encuentra revuelto es decir, ***presenta imágenes dañadas y sanas sin etiquetar***. Por lo tanto es necesario realizar un curado del set separando el set en dos clases __sanas y dañadas__. Este proceso ya fue realizado y separado en carpetas y si no se desea hacer el proceso de curado desde el incio la carpeta que contiene los datos curados y organizados tiene el nombre de ***processed_data*** y esta disponible en el sigueinte enlace para descargarla. 
+Lo anterior sirve para clasificar y separar las imagenes que estan con etiqueta del data set original que corresponden a 263 imágenes. Las otras 1039 imágenes corresponden a imágenes que no presentan etiquetas, este gurpo del set se encuentra revuelto es decir, ***presenta imágenes dañadas y sanas sin etiquetar***. Por lo tanto es necesario realizar un curado del set separando el set en dos clases __sanas y dañadas__. Este proceso ya fue realizado y separado en carpetas y si no se desea hacer el proceso de curado desde el incio la carpeta que contiene los datos curados y organizados tiene el nombre de ***processed_data*** y esta disponible en el sigueinte enlace para descargarla.
+
+* https://secure.internxt.com/sh/folder/lX4gCIL-TkiSgFQ38y1Q4Q/c44CfFqK 
+> Carpeta con los datos curados.
 
 Realizado este paso lo que se debe hacer antes de entrenar los modelos es ejecutar los siguientes scripts en el siguiente orden descrito a continuación 
 
@@ -65,19 +68,6 @@ Luego de esto se crearan los archivos __.csv__ que contienen las caracteristicas
 Finalizados los anteriores pasos, se debe ejecutar el notebook con el nombre de ***PALAS_EOLICAS_ML.ipynb*** celda por celda, en este notebook se encuentran definidos los parametros utilizados en el entrenamiento de modelos __SVM, K-NN, MLP, Random Forest, Logistic Regretion__. Los resultados de este proceso se resumen a continuación.
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -222,11 +212,12 @@ En la aplicación de uso es posee dos opciones posibles:
 
 ---
 ## 🛠️ Requisitos
-
+- Crea un entorno virtual (recomendación) o puedes ejecutarlo de forma global
 - Python 3.9+
-- Librerías:
+- Librerías necesarias:
   ```bash
+    # las necesarias 
     pip install streamlit scikit-learn opencv-python-headless pillow numpy pandas matplotlib scikit-image joblib 
     # O se puede ejecutar lo siguiente:
-    pip install requirements.txt
+    pip install requirements.txt # esto contiene el paquete completo de las librerias
     ```
