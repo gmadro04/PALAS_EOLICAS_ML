@@ -1,0 +1,23 @@
+# Entornos / dependencias
+venv/
+venvs/
+.env/
+*.egg-info/
+
+# Datos y artefactos grandes
+processed_data/
+**/data_bin/
+**/results_*/
+**/saved_models/
+**/predicciones*.csv
+*.csv
+*.joblib
+*.pkl
+
+# Binarios y temporales
+*.dll
+*.pyd
+*.so
+__pycache__/
+*.log
+.DS_Store
