@@ -190,7 +190,7 @@ Finalizados los anteriores pasos, se debe ejecutar el notebook con el nombre de 
 </table>
 </div>
 
-El modelo a usar es SVM_RBF como lo vemos en la tabla es el que mejor resultado dio en los entrenamientos. Sin embargo se guardan los otros modelos pos si se desean poner en producción, haciendo uso de la interfaz didactica, que se describe a continuación.
+El modelo a usar es ***SVM con kernel RBF*** como lo vemos en la tabla es el que mejor resultado dio en los entrenamientos ofrece el mejor balance precisión/performance. Sin embargo se guardan los otros modelos si se desean poner en producción, haciendo uso de la interfaz didactica, que se describe a continuación.
 
 # 💡Aplicación: Uso práctico del modelo SVM-RBF de clasificación
 
