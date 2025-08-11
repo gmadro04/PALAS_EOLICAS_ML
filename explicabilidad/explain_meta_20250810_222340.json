@@ -1,0 +1,25 @@
+{
+  "model_path": "C:\\Users\\GMADRO04\\Documents\\PALAS_EOLICAS_ML\\code_modelo\\svm_rbf_pipeline.joblib",
+  "sample_idx": 0,
+  "pred_sample": 0,
+  "prob_sample": 0.08057212911543536,
+  "y_true_sample": 0,
+  "image_path": null,
+  "lime_html": "./explicabilidad\\lime_idx0_20250810_222340.html",
+  "lime_bar_png": "./explicabilidad\\lime_bar_idx0_20250810_222340.png",
+  "lime_combined_png": null,
+  "shap_summary_bar_png": "./explicabilidad\\shap_summary_bar_20250810_222340.png",
+  "shap_summary_dot_png": "./explicabilidad\\shap_summary_dot_20250810_222340.png",
+  "bg_method": "sklearn.KMeans_20",
+  "shap_nsamples_local": 400,
+  "shap_nsamples_global": 300,
+  "hog_params": {
+    "orientations": 6,
+    "cells_x": 18,
+    "cells_y": 12,
+    "cells_per_block": [
+      2,
+      2
+    ]
+  }
+}
