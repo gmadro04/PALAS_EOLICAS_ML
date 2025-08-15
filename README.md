@@ -7,6 +7,7 @@ Incluye:
 - **Interfaz interactiva** en Streamlit para predecir el estado de nuevas imágenes.
 - Resaltado de zonas dañadas a partir de anotaciones JSON o *heatmaps* explicativos.
 
+> Enlace al repositorio GitHub del proyecto:  https://github.com/gmadro04/PALAS_EOLICAS_ML/tree/master
 ---
 
 ## 📂 Estructura del proyecto
@@ -209,6 +210,8 @@ En la aplicación de uso es posee dos opciones posibles:
 2. Cargar __lote de imágenes__: Permite evaluar varias imágenes, las evalua y las clasifica, terminado el proceso resume los resultados en un archivo __.csv__ que puede ser descargado para su evaluación si es necesario.
 
 * En la parte lateral izquierda se encunetran opciones de configuración donde se especifica la ruta del modelo a usar y el modelo que se esta usando para la clasificación. Las otras opciones son para habilitar o no la visualización grafica de los resultados en la interfaz. 
+
+> En la carpeta conjunto_ejemplos se encuentra un set de imágenes con las que se puede probar la herramienta, estas imagenes ***NO*** han sido utilizadas en los sets de entrenamiento, validación y testo
 
 ---
 ## 🛠️ Requisitos
